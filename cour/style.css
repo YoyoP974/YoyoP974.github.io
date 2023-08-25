@@ -1,0 +1,119 @@
+body{
+    background-image: url("img/bg.png");
+    
+}
+
+.ligne1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cercle-histoire{
+    margin: 5px;
+    margin-right: 150px;
+    background: #8800CC;
+    border-radius:50%;
+    width:160px;
+    height:160px;
+    border:2px solid #6C00A3;
+    color: white;
+    font-family: 'Broadway';
+    font-size: small;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+.cercle-histoire:hover{
+    background: #c98f00;
+    border: 2px solid #b8251d;
+    cursor: pointer;
+}
+
+.cercle-geo{
+    margin: 5px;
+    margin-right: 150px;
+    background: #8800CC;
+    border-radius:50%;
+    width:160px;
+    height:160px;
+    border:2px solid #6C00A3;
+    color: white;
+    font-family: 'Broadway';
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+}
+.cercle-geo:hover{
+    background: #c98f00;
+    border: 2px solid #b8251d;
+    cursor: pointer;
+}
+
+.cercle-math{
+    margin: 5px;
+    margin-right: 150px;
+    background: #8800CC;
+    border-radius:50%;
+    width:160px;
+    height:160px;
+    border:2px solid #6C00A3;
+    color: white;
+    font-family: 'Broadway';
+    font-size: 8px;
+    text-align: center;
+    position: relative;
+}
+.cercle-math:hover{
+    background: #c98f00;
+    border: 2px solid #b8251d;
+    cursor: pointer;
+}
+
+.titre{
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+}
+
+.img_hist{
+    position: relative;
+    top: 15px;
+    width: 75px;
+    height: 75px;
+}
+
+.text{
+    color: white;
+    font-family: 'Broadway';
+    text-align: center;
+}
+
+.retour{
+    width: 50px;
+    margin: 5px;
+}
+
+.page{
+    background-color: white;
+    width: 700px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    display: flex;
+}
+
+.matiere{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'Broadway';
+}
+
+.link{
+    color: white;
+}
